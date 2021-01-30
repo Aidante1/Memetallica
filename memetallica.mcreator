@@ -5,7 +5,7 @@
       "name": "HeavyMetal",
       "type": "item",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_metal"
@@ -14,7 +14,7 @@
       "name": "DeathMetal",
       "type": "item",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "death_metal"
@@ -23,7 +23,7 @@
       "name": "AcousticBody",
       "type": "item",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "acoustic_body"
@@ -68,7 +68,7 @@
       "name": "Ridethelight",
       "type": "procedure",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "ridethelight",
@@ -163,7 +163,7 @@
       "name": "MarijuanaFoodEaten",
       "type": "procedure",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "marijuana_food_eaten",
@@ -207,7 +207,7 @@
       "name": "Acousticstalk",
       "type": "item",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "acousticstalk"
@@ -216,7 +216,14 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.memetallica.beanie_chestplate": "Beanie Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
+      "item.memetallica.marijuana": "Marijuana",
+      "item.memetallica.beanie_helmet": "Beanie ",
+      "item.memetallica.beanie_leggings": "Beanie Leggings",
+      "item.memetallica.musicnote": "Musicnote"
+    }
   },
   "workspaceSettings": {
     "modid": "memetallica",

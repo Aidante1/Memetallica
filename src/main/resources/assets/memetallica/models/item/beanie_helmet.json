@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "memetallica:items/beesne"
+    "layer0": "memetallica:items/beanie"
   }
 }

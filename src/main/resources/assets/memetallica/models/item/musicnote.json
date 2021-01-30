@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "memetallica:items/a"
+    "layer0": "memetallica:items/music_note"
   }
 }
