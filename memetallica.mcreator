@@ -338,23 +338,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "metal_craft"
+    },
+    {
+      "name": "MasterOfPup",
+      "type": "musicdisc",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "master_of_pup"
+    },
+    {
+      "name": "MasterDiscCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "master_disc_craft"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "damageincc",
+      "files": [
+        "damage_inc"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "masterofpuppies",
+      "files": [
+        "song"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.memetallica.elecg_2full": "Electric Guitar 2",
       "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "subtitles.masterofpuppies": "",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
+      "item.memetallica.master_of_pup": "Music Disc",
       "item.memetallica.electric_guitar_2_body": "Electric Guitar 2 Body",
       "itemGroup.tabmetal_craft": "MetalCraft",
       "item.memetallica.electric_guitar_full_1": "Electric Guitar 1",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
+      "subtitles.damageincc": "",
+      "item.memetallica.master_of_pup.desc": "Metallica - Master of Puppets",
       "item.memetallica.beanie_chestplate": "Beanie Body",
       "item.memetallica.heavy_metal": "Heavy Metal",
       "item.memetallica.acousticguitar": "Acoustic Guitar",

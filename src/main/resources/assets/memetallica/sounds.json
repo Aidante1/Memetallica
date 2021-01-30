@@ -1,1 +1,20 @@
-{}
+{
+  "damageincc": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:damage_inc",
+        "stream": true
+      }
+    ]
+  },
+  "masterofpuppies": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:song",
+        "stream": true
+      }
+    ]
+  }
+}
