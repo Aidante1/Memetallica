@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "acoustbody",
+    "texture": "acoustic_body",
     "customModelName": "Normal",
     "name": "Acoustic Body",
     "rarity": "COMMON",

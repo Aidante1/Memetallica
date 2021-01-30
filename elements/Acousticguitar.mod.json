@@ -3,7 +3,7 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic",
+    "texture": "acoustic_guitar",
     "customModelName": "Normal",
     "name": "Acousticguitar",
     "specialInfo": [],
