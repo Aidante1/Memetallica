@@ -20,13 +20,13 @@
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "bow",
+    "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
     "bulletDamage": 8.0,
     "bulletKnockback": 6,
-    "bulletParticles": true,
+    "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:Musicnote"

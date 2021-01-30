@@ -511,6 +511,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stangerfistcraf"
+    },
+    {
+      "name": "G3neck",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g_3neck"
+    },
+    {
+      "name": "G3body",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g_3body"
+    },
+    {
+      "name": "G3neckcraft",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g_3neckcraft"
+    },
+    {
+      "name": "G3bodycraft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g_3bodycraft"
     }
   ],
   "variable_elements": [],
@@ -550,8 +586,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.musicnote": "Musicnote",
@@ -571,6 +607,8 @@
       "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
       "subtitles.damageincc": "",
       "subtitles.eightbitdamage": "",
+      "item.memetallica.g_3neck": "Guitar 3 Neck",
+      "item.memetallica.g_3body": "Guitar 3 Body",
       "item.memetallica.heavy_metal": "Heavy Metal",
       "item.memetallica.acousticguitar": "Acoustic Guitar",
       "item.memetallica.damage_inc_disk": "Music Disc",

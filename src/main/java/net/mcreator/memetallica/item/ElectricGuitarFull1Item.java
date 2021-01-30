@@ -75,7 +75,7 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.CROSSBOW;
 		}
 
 		@Override
@@ -158,7 +158,7 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 		ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, entity, world);
 		entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setIsCritical(true);
+		entityarrow.setIsCritical(false);
 		entityarrow.setDamage(damage);
 		entityarrow.setKnockbackStrength(knockback);
 		world.addEntity(entityarrow);
@@ -180,7 +180,7 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 		entityarrow.setSilent(true);
 		entityarrow.setDamage(8);
 		entityarrow.setKnockbackStrength(6);
-		entityarrow.setIsCritical(true);
+		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();

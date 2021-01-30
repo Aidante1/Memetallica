@@ -1,0 +1,27 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "memetallica:heavy_metal"
+    },
+    "4": {
+      "item": "memetallica:heavy_metal"
+    },
+    "6": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "memetallica:g_3body",
+    "count": 1
+  }
+}
