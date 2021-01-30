@@ -27,6 +27,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hardwired"
+    },
+    {
+      "name": "Damageink",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "damageink"
     }
   ],
   "variable_elements": [],
@@ -36,9 +45,11 @@
       "advancements.nolifetillleather.title": "No life till\u0027 leather",
       "advancements.blackened.descr": "mine some coal",
       "advancements.hardwired.descr": "mine some redstone",
+      "advancements.damageink.descr": "kill a squid",
       "advancements.blackened.title": "Blackened",
       "advancements.hardwired.title": "Hardwired",
-      "advancements.nolifetillleather.descr": "kill a cow"
+      "advancements.nolifetillleather.descr": "kill a cow",
+      "advancements.damageink.title": "Damage, ink"
     }
   },
   "workspaceSettings": {
