@@ -63,6 +63,49 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ridethelightning"
+    },
+    {
+      "name": "Ridethelight",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ridethelight",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Digitalbath",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "digitalbath"
+    },
+    {
+      "name": "Deigitalbat",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deigitalbat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -78,9 +121,11 @@
       "advancements.vulgardisplayofpower.descr": "craft a diamond sword",
       "advancements.theresnothingformehere.descr": "go to a desert",
       "advancements.ridethelightning.descr": "get struck by lightning",
+      "advancements.digitalbath.title": "Digital bath",
       "advancements.hardwired.title": "Hardwired",
       "advancements.vulgardisplayofpower.title": "Vulgar display of power",
       "advancements.nolifetillleather.descr": "kill a cow",
+      "advancements.digitalbath.descr": "get struck by lightning... in WATER",
       "advancements.damageink.descr": "kill a squid",
       "advancements.damageink.title": "Damage, ink"
     }
