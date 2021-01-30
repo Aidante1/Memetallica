@@ -212,6 +212,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "heavymetcraft"
+    },
+    {
+      "name": "Deathmetalcarft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deathmetalcarft"
     }
   ],
   "variable_elements": [],
@@ -225,7 +234,7 @@
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.heavy_metal": "Heavy Metal",
       "item.memetallica.acousticguitar": "Acousticguitar",
-      "item.memetallica.death_metal": "Heavy Metal",
+      "item.memetallica.death_metal": "Death Metal",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.acousticstalk": "Acoustic stock"
