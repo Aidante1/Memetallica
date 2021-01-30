@@ -3,9 +3,9 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "electric_guitar",
+    "texture": "acoustic",
     "customModelName": "Normal",
-    "name": "Electric Guitar 1",
+    "name": "Electric Guitar 3",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:MetalCraft"
@@ -14,8 +14,8 @@
     "ammoItem": {
       "value": ""
     },
-    "shootConstantly": true,
-    "usageCount": 200,
+    "shootConstantly": false,
+    "usageCount": 100,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
@@ -24,8 +24,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
-    "bulletDamage": 8.0,
-    "bulletKnockback": 6,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 5,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {

@@ -38,13 +38,13 @@ import net.mcreator.memetallica.MemetallicaModElements;
 import java.util.Random;
 
 @MemetallicaModElements.ModElement.Tag
-public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
-	@ObjectHolder("memetallica:electric_guitar_full_1")
+public class G3fullItem extends MemetallicaModElements.ModElement {
+	@ObjectHolder("memetallica:g_3full")
 	public static final Item block = null;
-	@ObjectHolder("memetallica:entitybulletelectric_guitar_full_1")
+	@ObjectHolder("memetallica:entitybulletg_3full")
 	public static final EntityType arrow = null;
-	public ElectricGuitarFull1Item(MemetallicaModElements instance) {
-		super(instance, 25);
+	public G3fullItem(MemetallicaModElements instance) {
+		super(instance, 55);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletelectric_guitar_full_1").setRegistryName("entitybulletelectric_guitar_full_1"));
+				.size(0.5f, 0.5f)).build("entitybulletg_3full").setRegistryName("entitybulletg_3full"));
 	}
 
 	@Override
@@ -63,8 +63,8 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(MetalCraftItemGroup.tab).maxDamage(200));
-			setRegistryName("electric_guitar_full_1");
+			super(new Item.Properties().group(MetalCraftItemGroup.tab).maxDamage(100));
+			setRegistryName("g_3full");
 		}
 
 		@Override
@@ -84,18 +84,16 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 		}
 
 		@Override
-		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-			World world = entityLiving.world;
+		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				double x = entity.getPosX();
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 8, 6);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 6, 5);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					entity.stopActiveHand();
 				}
 			}
 		}
@@ -178,8 +176,8 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(8);
-		entityarrow.setKnockbackStrength(6);
+		entityarrow.setDamage(6);
+		entityarrow.setKnockbackStrength(5);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
