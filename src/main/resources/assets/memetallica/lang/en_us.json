@@ -5,8 +5,8 @@
   "item.memetallica.marijuana": "Marijuana",
   "item.memetallica.beanie_helmet": "Beanie ",
   "advancements.sweetleaf.descr": "smoke some weed",
-  "advancements.theresnothingformehere.descr": "go to a desert",
   "item.memetallica.musicnote": "Musicnote",
+  "advancements.theresnothingformehere.descr": "go to a desert",
   "advancements.vulgardisplayofpower.title": "Vulgar display of power",
   "advancements.nolifetillleather.descr": "kill a cow",
   "item.memetallica.beanie_chestplate": "Beanie Body",
@@ -22,5 +22,6 @@
   "advancements.sweetleaf.title": "Sweet leaf",
   "advancements.ridethelightning.descr": "get struck by lightning",
   "advancements.hardwired.title": "Hardwired",
+  "item.memetallica.acousticguitar": "Acousticguitar",
   "item.memetallica.acousticstalk": "Acoustic stock"
 }
