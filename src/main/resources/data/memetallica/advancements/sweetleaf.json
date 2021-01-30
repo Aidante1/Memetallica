@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "memetallica:unknown_element"
+    },
+    "title": {
+      "translate": "advancements.sweetleaf.title"
+    },
+    "description": {
+      "translate": "advancements.sweetleaf.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sweetleaf": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "memetallica:unknown_element"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 999
+  }
+}

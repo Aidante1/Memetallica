@@ -1,0 +1,16 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:fern"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    }
+  ],
+  "result": {
+    "item": "memetallica:unknown_element",
+    "count": 1
+  }
+}

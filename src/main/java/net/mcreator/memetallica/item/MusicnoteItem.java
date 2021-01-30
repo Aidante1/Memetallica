@@ -2,13 +2,13 @@
 package net.mcreator.memetallica.item;
 
 @MemetallicaModElements.ModElement.Tag
-public class HeavyMetalItem extends MemetallicaModElements.ModElement {
+public class MusicnoteItem extends MemetallicaModElements.ModElement {
 
-	@ObjectHolder("memetallica:heavy_metal")
+	@ObjectHolder("memetallica:musicnote")
 	public static final Item block = null;
 
-	public HeavyMetalItem(MemetallicaModElements instance) {
-		super(instance, 1);
+	public MusicnoteItem(MemetallicaModElements instance) {
+		super(instance, 18);
 
 	}
 
@@ -20,8 +20,8 @@ public class HeavyMetalItem extends MemetallicaModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("heavy_metal");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("musicnote");
 		}
 
 		@Override
