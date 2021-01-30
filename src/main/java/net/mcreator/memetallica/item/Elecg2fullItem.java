@@ -75,7 +75,7 @@ public class Elecg2fullItem extends MemetallicaModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.CROSSBOW;
 		}
 
 		@Override
