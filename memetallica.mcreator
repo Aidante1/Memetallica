@@ -9,6 +9,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nolifetillleather"
+    },
+    {
+      "name": "Blackened",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackened"
+    },
+    {
+      "name": "Hardwired",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardwired"
     }
   ],
   "variable_elements": [],
@@ -16,6 +34,10 @@
   "language_map": {
     "en_us": {
       "advancements.nolifetillleather.title": "No life till\u0027 leather",
+      "advancements.blackened.descr": "mine some coal",
+      "advancements.hardwired.descr": "mine some redstone",
+      "advancements.blackened.title": "Blackened",
+      "advancements.hardwired.title": "Hardwired",
       "advancements.nolifetillleather.descr": "kill a cow"
     }
   },
