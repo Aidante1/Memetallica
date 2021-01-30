@@ -16,5 +16,14 @@
         "stream": true
       }
     ]
+  },
+  "eightbitdamage": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:8bitdamage.ogg",
+        "stream": true
+      }
+    ]
   }
 }

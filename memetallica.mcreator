@@ -374,6 +374,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "damage_craft"
+    },
+    {
+      "name": "Damage8",
+      "type": "musicdisc",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "damage_8"
     }
   ],
   "variable_elements": [],
@@ -393,17 +402,26 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "eightbitdamage",
+      "files": [
+        "8bitdamage.ogg"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.master_of_pup.desc": "Metallica - Master of Puppets",
       "item.memetallica.beanie_chestplate": "Beanie Body",
+      "item.memetallica.damage_8.desc": "Metallica - Damage Inc (8bit)",
       "item.memetallica.elecg_2full": "Electric Guitar 2",
       "subtitles.masterofpuppies": "",
       "item.memetallica.damage_inc_disk.desc": "Metallica - Damage, Inc",
@@ -414,10 +432,12 @@
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
       "subtitles.damageincc": "",
+      "subtitles.eightbitdamage": "",
       "item.memetallica.heavy_metal": "Heavy Metal",
       "item.memetallica.acousticguitar": "Acoustic Guitar",
       "item.memetallica.damage_inc_disk": "Music Disc",
       "item.memetallica.death_metal": "Death Metal",
+      "item.memetallica.damage_8": "Music Disc (SP)",
       "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
       "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
       "item.memetallica.acousticstalk": "Acoustic Neck"

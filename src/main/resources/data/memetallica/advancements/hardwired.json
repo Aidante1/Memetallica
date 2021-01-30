@@ -32,5 +32,6 @@
   },
   "rewards": {
     "experience": 50
-  }
+  },
+  "parent": "memetallica:nolifetillleather"
 }
