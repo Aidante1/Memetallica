@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "damnige",
+    "name": "Music Disc",
+    "description": "Metallica - Damage, Inc",
+    "creativeTab": {
+      "value": "CUSTOM:MetalCraft"
+    },
+    "music": {
+      "value": "CUSTOM:damageincc"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
