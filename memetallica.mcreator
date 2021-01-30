@@ -198,7 +198,7 @@
       "name": "HeavyMetal",
       "type": "item",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "heavy_metal"
@@ -207,7 +207,7 @@
       "name": "DeathMetal",
       "type": "item",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "death_metal"
@@ -229,6 +229,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acoutsticguitarcra"
+    },
+    {
+      "name": "Heavymetcraft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavymetcraft"
     }
   ],
   "variable_elements": [],
@@ -239,6 +248,8 @@
       "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
+      "item.memetallica.heavy_metal": "Heavy Metal",
+      "item.memetallica.death_metal": "Heavy Metal",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.musicnote": "Musicnote"
     }
