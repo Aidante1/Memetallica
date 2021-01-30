@@ -464,6 +464,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "killingismy"
+    },
+    {
+      "name": "StangerfistLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stangerfist_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stangerfist",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stangerfist"
+    },
+    {
+      "name": "Stangerfistcraf",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stangerfistcraf"
     }
   ],
   "variable_elements": [],
@@ -532,6 +579,7 @@
       "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
       "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
       "item.memetallica.thedicksong": "Music Disc (SP)",
+      "item.memetallica.stangerfist": "St. Anger Fist",
       "item.memetallica.acousticstalk": "Acoustic Neck"
     }
   },
