@@ -428,6 +428,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ride_the_lightning_paint"
+    },
+    {
+      "name": "MetallicaLogo",
+      "type": "painting",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metallica_logo"
+    },
+    {
+      "name": "Megadethlogo",
+      "type": "painting",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megadethlogo"
+    },
+    {
+      "name": "NumberOftheBreast",
+      "type": "painting",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "number_ofthe_breast"
+    },
+    {
+      "name": "Killingismy",
+      "type": "painting",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "killingismy"
     }
   ],
   "variable_elements": [],
@@ -467,8 +503,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.musicnote": "Musicnote",
