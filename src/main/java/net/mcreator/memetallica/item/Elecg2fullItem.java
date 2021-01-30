@@ -38,13 +38,13 @@ import net.mcreator.memetallica.MemetallicaModElements;
 import java.util.Random;
 
 @MemetallicaModElements.ModElement.Tag
-public class AcousticguitarItem extends MemetallicaModElements.ModElement {
-	@ObjectHolder("memetallica:acousticguitar")
+public class Elecg2fullItem extends MemetallicaModElements.ModElement {
+	@ObjectHolder("memetallica:elecg_2full")
 	public static final Item block = null;
-	@ObjectHolder("memetallica:entitybulletacousticguitar")
+	@ObjectHolder("memetallica:entitybulletelecg_2full")
 	public static final EntityType arrow = null;
-	public AcousticguitarItem(MemetallicaModElements instance) {
-		super(instance, 18);
+	public Elecg2fullItem(MemetallicaModElements instance) {
+		super(instance, 32);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletacousticguitar").setRegistryName("entitybulletacousticguitar"));
+				.size(0.5f, 0.5f)).build("entitybulletelecg_2full").setRegistryName("entitybulletelecg_2full"));
 	}
 
 	@Override
@@ -63,8 +63,8 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1));
-			setRegistryName("acousticguitar");
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
+			setRegistryName("elecg_2full");
 		}
 
 		@Override
@@ -75,7 +75,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.NONE;
+			return UseAction.BOW;
 		}
 
 		@Override
@@ -84,18 +84,16 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		}
 
 		@Override
-		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-			World world = entityLiving.world;
+		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				double x = entity.getPosX();
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 6, 3);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 5f, 10, 5);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					entity.stopActiveHand();
 				}
 			}
 		}
@@ -161,6 +159,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		entityarrow.setIsCritical(true);
 		entityarrow.setDamage(damage);
 		entityarrow.setKnockbackStrength(knockback);
+		entityarrow.setFire(100);
 		world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();
@@ -176,11 +175,12 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 5f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(6);
-		entityarrow.setKnockbackStrength(3);
+		entityarrow.setDamage(10);
+		entityarrow.setKnockbackStrength(5);
 		entityarrow.setIsCritical(true);
+		entityarrow.setFire(100);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();

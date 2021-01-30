@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic_neck",
+    "texture": "acoustic",
     "customModelName": "Normal",
-    "name": "Acoustic Neck",
+    "name": "Electric Guitar 2 Neck",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

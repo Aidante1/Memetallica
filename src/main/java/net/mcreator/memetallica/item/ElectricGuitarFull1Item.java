@@ -92,7 +92,7 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 15, 6);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 8, 6);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 					entity.stopActiveHand();
@@ -178,7 +178,7 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(15);
+		entityarrow.setDamage(8);
 		entityarrow.setKnockbackStrength(6);
 		entityarrow.setIsCritical(true);
 		entity.world.addEntity(entityarrow);

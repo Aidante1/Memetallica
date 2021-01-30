@@ -3,9 +3,9 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic_guitar",
+    "texture": "acoustic",
     "customModelName": "Normal",
-    "name": "Acousticguitar",
+    "name": "Electric Guitar 2",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
@@ -14,20 +14,20 @@
     "ammoItem": {
       "value": ""
     },
-    "shootConstantly": true,
-    "usageCount": 0,
+    "shootConstantly": false,
+    "usageCount": 100,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "none",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 3.0,
-    "bulletDamage": 6.0,
-    "bulletKnockback": 3,
+    "bulletPower": 5.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 5,
     "bulletParticles": true,
-    "bulletIgnitesFire": false,
+    "bulletIgnitesFire": true,
     "bulletItemTexture": {
       "value": "CUSTOM:Musicnote"
     },
