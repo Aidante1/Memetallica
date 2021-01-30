@@ -392,6 +392,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "thedicksong"
+    },
+    {
+      "name": "DickDiscCarft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dick_disc_carft"
+    },
+    {
+      "name": "Eightbitdamage",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eightbitdamage"
     }
   ],
   "variable_elements": [],
@@ -431,8 +449,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.beanie_boots": "Beanie Boots",
+      "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.musicnote": "Musicnote",

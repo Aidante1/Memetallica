@@ -1,0 +1,30 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "memetallica:heavy_metal"
+    },
+    "4": {
+      "item": "minecraft:brown_wool"
+    },
+    "5": {
+      "item": "memetallica:heavy_metal"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "memetallica:thedicksong",
+    "count": 1
+  }
+}
