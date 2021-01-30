@@ -1,10 +1,13 @@
 {
   "item.memetallica.beanie_chestplate": "Beanie Body",
   "item.memetallica.beanie_boots": "Beanie Boots",
+  "item.memetallica.acoustic_body": "Acoustic Body",
   "item.memetallica.marijuana": "Marijuana",
   "item.memetallica.beanie_helmet": "Beanie ",
   "item.memetallica.heavy_metal": "Heavy Metal",
+  "item.memetallica.acousticguitar": "Acousticguitar",
   "item.memetallica.death_metal": "Heavy Metal",
   "item.memetallica.beanie_leggings": "Beanie Leggings",
-  "item.memetallica.musicnote": "Musicnote"
+  "item.memetallica.musicnote": "Musicnote",
+  "item.memetallica.acousticstalk": "Acoustic stock"
 }

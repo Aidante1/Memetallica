@@ -56,36 +56,10 @@
       "registry_name": "vulgardisplayofpower"
     },
     {
-      "name": "Ridethelightning",
-      "type": "achievement",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ridethelightning"
-    },
-    {
-      "name": "Ridethelight",
-      "type": "procedure",
-      "sortid": 8,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ridethelight",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "MarijuanaFoodEaten",
       "type": "procedure",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "marijuana_food_eaten",
@@ -129,7 +103,7 @@
       "name": "Acousticstalk",
       "type": "item",
       "sortid": 12,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "acousticstalk"
@@ -138,7 +112,7 @@
       "name": "AcousticBody",
       "type": "item",
       "sortid": 13,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "acoustic_body"
@@ -216,7 +190,7 @@
       "name": "Acousticguitar",
       "type": "gun",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "acousticguitar"
@@ -246,12 +220,15 @@
     "en_us": {
       "item.memetallica.beanie_chestplate": "Beanie Body",
       "item.memetallica.beanie_boots": "Beanie Boots",
+      "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.heavy_metal": "Heavy Metal",
+      "item.memetallica.acousticguitar": "Acousticguitar",
       "item.memetallica.death_metal": "Heavy Metal",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
-      "item.memetallica.musicnote": "Musicnote"
+      "item.memetallica.musicnote": "Musicnote",
+      "item.memetallica.acousticstalk": "Acoustic stock"
     }
   },
   "workspaceSettings": {

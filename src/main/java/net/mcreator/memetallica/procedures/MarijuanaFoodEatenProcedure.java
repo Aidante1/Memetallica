@@ -1,11 +1,20 @@
 package net.mcreator.memetallica.procedures;
 
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.memetallica.MemetallicaModElements;
+
+import java.util.Map;
+
 @MemetallicaModElements.ModElement.Tag
 public class MarijuanaFoodEatenProcedure extends MemetallicaModElements.ModElement {
-
 	public MarijuanaFoodEatenProcedure(MemetallicaModElements instance) {
 		super(instance, 9);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -14,9 +23,7 @@ public class MarijuanaFoodEatenProcedure extends MemetallicaModElements.ModEleme
 				System.err.println("Failed to load dependency entity for procedure MarijuanaFoodEaten!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (entity instanceof PlayerEntity && !entity.world.isRemote) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("you are high af"), (true));
 		}
@@ -30,7 +37,5 @@ public class MarijuanaFoodEatenProcedure extends MemetallicaModElements.ModEleme
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 60, (int) 1, (false), (false)));
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
-
 	}
-
 }
