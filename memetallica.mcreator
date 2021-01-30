@@ -293,6 +293,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "elec_g_2craft"
+    },
+    {
+      "name": "Electricguitar2neck",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electricguitar_2neck"
     }
   ],
   "variable_elements": [],
@@ -313,6 +322,7 @@
       "item.memetallica.acousticguitar": "Acousticguitar",
       "item.memetallica.death_metal": "Death Metal",
       "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
+      "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
       "item.memetallica.acousticstalk": "Acoustic Neck"
     }
   },
