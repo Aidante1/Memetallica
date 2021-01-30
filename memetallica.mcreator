@@ -202,6 +202,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acousticguitar"
+    },
+    {
+      "name": "Acoutsticguitarcra",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acoutsticguitarcra"
     }
   ],
   "variable_elements": [],
