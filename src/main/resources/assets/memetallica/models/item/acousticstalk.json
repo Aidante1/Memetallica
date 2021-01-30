@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "memetallica:items/guitarstock"
+    "layer0": "memetallica:items/acoustic_neck"
   }
 }
