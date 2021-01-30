@@ -302,6 +302,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "electricguitar_2neck"
+    },
+    {
+      "name": "ElectG2p2Craft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elect_g_2p_2_craft"
     }
   ],
   "variable_elements": [],

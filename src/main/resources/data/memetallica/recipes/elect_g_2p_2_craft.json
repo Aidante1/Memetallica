@@ -1,0 +1,36 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "memetallica:death_metal"
+    },
+    "2": {
+      "item": "memetallica:death_metal"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "5": {
+      "item": "memetallica:death_metal"
+    },
+    "6": {
+      "item": "memetallica:death_metal"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "memetallica:electricguitar_2neck",
+    "count": 1
+  }
+}
