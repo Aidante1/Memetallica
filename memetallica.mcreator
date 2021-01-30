@@ -275,6 +275,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "elect_guit_1craft"
+    },
+    {
+      "name": "ElectricGuitar2Body",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_guitar_2_body"
+    },
+    {
+      "name": "ElecG2craft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elec_g_2craft"
     }
   ],
   "variable_elements": [],
@@ -285,6 +303,7 @@
       "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
+      "item.memetallica.electric_guitar_2_body": "Electric Guitar 2 Body",
       "item.memetallica.electric_guitar_full_1": "Electric Guitar 1",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.musicnote": "Musicnote",

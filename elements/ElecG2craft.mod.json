@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:DeathMetal"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:DeathMetal"
+      },
+      {
         "value": ""
       },
       {
-        "value": "CUSTOM:HeavyMetal"
+        "value": "Blocks.PLANKS"
       },
       {
-        "value": "Blocks.SKULL#1"
+        "value": ""
       },
       {
-        "value": "CUSTOM:HeavyMetal"
+        "value": "CUSTOM:DeathMetal"
       },
       {
-        "value": "CUSTOM:HeavyMetal"
+        "value": ""
       },
       {
-        "value": "CUSTOM:HeavyMetal"
-      },
-      {
-        "value": "CUSTOM:HeavyMetal"
+        "value": "CUSTOM:DeathMetal"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DeathMetal"
+      "value": "CUSTOM:ElectricGuitar2Body"
     },
-    "name": "deathmetalcarft",
+    "name": "elec_g_2craft",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "memetallica:death_metal"
+    },
+    "2": {
+      "item": "memetallica:death_metal"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "item": "memetallica:death_metal"
+    },
+    "8": {
+      "item": "memetallica:death_metal"
+    }
+  },
+  "result": {
+    "item": "memetallica:electric_guitar_2_body",
+    "count": 1
+  }
+}
