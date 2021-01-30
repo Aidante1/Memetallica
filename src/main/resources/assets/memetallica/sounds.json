@@ -1,1 +1,38 @@
-{}
+{
+  "damageincc": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:damage_inc",
+        "stream": true
+      }
+    ]
+  },
+  "masterofpuppies": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:song",
+        "stream": true
+      }
+    ]
+  },
+  "eightbitdamage": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:8bitdamage.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "thedicksonga": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:metallica_-_the_dick_song",
+        "stream": true
+      }
+    ]
+  }
+}
