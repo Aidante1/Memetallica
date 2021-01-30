@@ -151,6 +151,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acoustic_stockrec"
+    },
+    {
+      "name": "Acousticbodycreaft",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acousticbodycreaft"
     }
   ],
   "variable_elements": [],
