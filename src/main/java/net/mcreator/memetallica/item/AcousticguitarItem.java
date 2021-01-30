@@ -92,7 +92,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 10, 3);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 6, 3);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 					entity.stopActiveHand();
@@ -178,7 +178,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(10);
+		entityarrow.setDamage(6);
 		entityarrow.setKnockbackStrength(3);
 		entityarrow.setIsCritical(true);
 		entity.world.addEntity(entityarrow);
