@@ -619,6 +619,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "theaxebodycarf"
+    },
+    {
+      "name": "Theaxecraft",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "theaxecraft"
     }
   ],
   "variable_elements": [],
@@ -658,8 +667,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.musicnote": "Musicnote",
