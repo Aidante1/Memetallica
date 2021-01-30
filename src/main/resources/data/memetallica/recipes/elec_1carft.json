@@ -1,0 +1,39 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "item": "memetallica:heavy_metal"
+    },
+    "4": {
+      "item": "memetallica:heavy_metal"
+    },
+    "5": {
+      "item": "memetallica:heavy_metal"
+    },
+    "6": {
+      "item": "memetallica:heavy_metal"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "item": "memetallica:heavy_metal"
+    }
+  },
+  "result": {
+    "item": "memetallica:electric_guitar_1",
+    "count": 1
+  }
+}
