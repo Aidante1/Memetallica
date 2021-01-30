@@ -8,7 +8,7 @@
     "name": "Acoustic Neck",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MetalCraft"
     },
     "stackSize": 1,
     "enchantability": 0,

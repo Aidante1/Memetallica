@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "mopdisc",
+    "name": "Music Disc",
+    "description": "Metallica - Master of Puppets",
+    "creativeTab": {
+      "value": "CUSTOM:MetalCraft"
+    },
+    "music": {
+      "value": "CUSTOM:masterofpuppies"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

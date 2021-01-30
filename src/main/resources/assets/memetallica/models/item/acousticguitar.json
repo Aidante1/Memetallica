@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "memetallica:items/acoustic_guitar"
+    "layer0": "memetallica:items/new_piskel"
   },
   "display": {
     "thirdperson_righthand": {

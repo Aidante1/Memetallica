@@ -3,30 +3,30 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic_guitar",
+    "texture": "new_piskel",
     "customModelName": "Normal",
-    "name": "Acousticguitar",
+    "name": "Acoustic Guitar",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MetalCraft"
     },
     "stackSize": 1,
     "ammoItem": {
       "value": ""
     },
-    "shootConstantly": true,
+    "shootConstantly": false,
     "usageCount": 0,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "none",
+    "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 3.0,
+    "bulletPower": 1.0,
     "bulletDamage": 6.0,
     "bulletKnockback": 3,
-    "bulletParticles": true,
+    "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:Musicnote"

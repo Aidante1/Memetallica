@@ -8,7 +8,7 @@
     "name": "Electric Guitar 2 Body",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MetalCraft"
     },
     "stackSize": 1,
     "enchantability": 0,

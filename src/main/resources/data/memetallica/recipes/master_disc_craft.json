@@ -1,0 +1,30 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "memetallica:heavy_metal"
+    },
+    "3": {
+      "item": "memetallica:heavy_metal"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "memetallica:heavy_metal"
+    },
+    "7": {
+      "item": "memetallica:heavy_metal"
+    }
+  },
+  "result": {
+    "item": "memetallica:master_of_pup",
+    "count": 1
+  }
+}

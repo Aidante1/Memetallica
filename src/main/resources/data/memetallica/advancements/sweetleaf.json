@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "memetallica:unknown_element"
+      "item": "memetallica:marijuana"
     },
     "title": {
       "translate": "advancements.sweetleaf.title"
@@ -19,12 +19,13 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "memetallica:unknown_element"
+          "item": "memetallica:marijuana"
         }
       }
     }
   },
   "rewards": {
     "experience": 999
-  }
+  },
+  "parent": "memetallica:nolifetillleather"
 }

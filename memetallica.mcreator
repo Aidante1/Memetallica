@@ -329,28 +329,209 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "elecg_2fullcarft"
+    },
+    {
+      "name": "MetalCraft",
+      "type": "tab",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_craft"
+    },
+    {
+      "name": "MasterOfPup",
+      "type": "musicdisc",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "master_of_pup"
+    },
+    {
+      "name": "MasterDiscCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "master_disc_craft"
+    },
+    {
+      "name": "DamageIncDisk",
+      "type": "musicdisc",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "damage_inc_disk"
+    },
+    {
+      "name": "DamageCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "damage_craft"
+    },
+    {
+      "name": "Damage8",
+      "type": "musicdisc",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "damage_8"
+    },
+    {
+      "name": "Thedicksong",
+      "type": "musicdisc",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thedicksong"
+    },
+    {
+      "name": "DickDiscCarft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dick_disc_carft"
+    },
+    {
+      "name": "Eightbitdamage",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eightbitdamage"
+    },
+    {
+      "name": "MasterOfPuppetAlbum",
+      "type": "painting",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "master_of_puppet_album"
+    },
+    {
+      "name": "RideTheLightningPaint",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ride_the_lightning_paint"
+    },
+    {
+      "name": "MetallicaLogo",
+      "type": "painting",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metallica_logo"
+    },
+    {
+      "name": "Megadethlogo",
+      "type": "painting",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "megadethlogo"
+    },
+    {
+      "name": "NumberOftheBreast",
+      "type": "painting",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "number_ofthe_breast"
+    },
+    {
+      "name": "Killingismy",
+      "type": "painting",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "killingismy"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "damageincc",
+      "files": [
+        "damage_inc"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "masterofpuppies",
+      "files": [
+        "song"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "eightbitdamage",
+      "files": [
+        "8bitdamage.ogg"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "thedicksonga",
+      "files": [
+        "metallica_-_the_dick_song"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.memetallica.elecg_2full": "Electric Guitar 2",
-      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
+      "item.memetallica.musicnote": "Musicnote",
+      "item.memetallica.master_of_pup.desc": "Metallica - Master of Puppets",
+      "item.memetallica.beanie_chestplate": "Beanie Body",
+      "item.memetallica.thedicksong.desc": "Metallica - The Dick Song",
+      "subtitles.thedicksonga": "",
+      "item.memetallica.damage_8.desc": "Metallica - Damage Inc (8bit)",
+      "item.memetallica.elecg_2full": "Electric Guitar 2",
+      "subtitles.masterofpuppies": "",
+      "item.memetallica.damage_inc_disk.desc": "Metallica - Damage, Inc",
+      "item.memetallica.master_of_pup": "Music Disc",
       "item.memetallica.electric_guitar_2_body": "Electric Guitar 2 Body",
+      "itemGroup.tabmetal_craft": "MetalCraft",
       "item.memetallica.electric_guitar_full_1": "Electric Guitar 1",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
-      "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
-      "item.memetallica.beanie_chestplate": "Beanie Body",
+      "subtitles.damageincc": "",
+      "subtitles.eightbitdamage": "",
       "item.memetallica.heavy_metal": "Heavy Metal",
-      "item.memetallica.acousticguitar": "Acousticguitar",
+      "item.memetallica.acousticguitar": "Acoustic Guitar",
+      "item.memetallica.damage_inc_disk": "Music Disc",
       "item.memetallica.death_metal": "Death Metal",
+      "item.memetallica.damage_8": "Music Disc (SP)",
       "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
       "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
+      "item.memetallica.thedicksong": "Music Disc (SP)",
       "item.memetallica.acousticstalk": "Acoustic Neck"
     }
   },

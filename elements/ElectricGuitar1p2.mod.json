@@ -8,7 +8,7 @@
     "name": "Electric Guitar Neck 1",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MetalCraft"
     },
     "stackSize": 1,
     "enchantability": 0,
