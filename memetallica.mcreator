@@ -266,6 +266,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "elec_stock_craf"
+    },
+    {
+      "name": "ElectGuit1craft",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elect_guit_1craft"
     }
   ],
   "variable_elements": [],

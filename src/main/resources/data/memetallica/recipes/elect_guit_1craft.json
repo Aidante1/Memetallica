@@ -1,0 +1,24 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "memetallica:electric_guitar_1p_2"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "memetallica:electric_guitar_1"
+    }
+  },
+  "result": {
+    "item": "memetallica:electric_guitar_full_1",
+    "count": 1
+  }
+}
