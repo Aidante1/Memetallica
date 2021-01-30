@@ -2,31 +2,13 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "HeavyMetal",
-      "type": "item",
+      "name": "Nolifetillleather",
+      "type": "achievement",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "heavy_metal"
-    },
-    {
-      "name": "DeathMetal",
-      "type": "item",
-      "sortid": 2,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "death_metal"
-    },
-    {
-      "name": "AcousticBody",
-      "type": "item",
-      "sortid": 13,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "acoustic_body"
+      "registry_name": "nolifetillleather"
     },
     {
       "name": "Blackened",
@@ -36,59 +18,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blackened"
-    },
-    {
-      "name": "AcousticStockrec",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "acoustic_stockrec"
-    },
-    {
-      "name": "Ridethelightning",
-      "type": "achievement",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ridethelightning"
-    },
-    {
-      "name": "Musicnote",
-      "type": "item",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "musicnote"
-    },
-    {
-      "name": "Ridethelight",
-      "type": "procedure",
-      "sortid": 8,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ridethelight",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Nolifetillleather",
-      "type": "achievement",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nolifetillleather"
     },
     {
       "name": "Hardwired",
@@ -109,30 +38,6 @@
       "registry_name": "damageink"
     },
     {
-      "name": "Beanie",
-      "type": "armor",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "beanie",
-      "metadata": {
-        "eh": true,
-        "el": false,
-        "eb": false,
-        "ec": false
-      }
-    },
-    {
-      "name": "Sweetleaf",
-      "type": "achievement",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sweetleaf"
-    },
-    {
       "name": "Theresnothingformehere",
       "type": "achievement",
       "sortid": 5,
@@ -140,15 +45,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "theresnothingformehere"
-    },
-    {
-      "name": "Marijuanacraf",
-      "type": "recipe",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "marijuanacraf"
     },
     {
       "name": "Vulgardisplayofpower",
@@ -160,10 +56,36 @@
       "registry_name": "vulgardisplayofpower"
     },
     {
+      "name": "Ridethelightning",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ridethelightning"
+    },
+    {
+      "name": "Ridethelight",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ridethelight",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "MarijuanaFoodEaten",
       "type": "procedure",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "marijuana_food_eaten",
@@ -186,6 +108,51 @@
       "registry_name": "marijuana"
     },
     {
+      "name": "Sweetleaf",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweetleaf"
+    },
+    {
+      "name": "Marijuanacraf",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marijuanacraf"
+    },
+    {
+      "name": "Acousticstalk",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acousticstalk"
+    },
+    {
+      "name": "AcousticBody",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acoustic_body"
+    },
+    {
+      "name": "AcousticStockrec",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acoustic_stockrec"
+    },
+    {
       "name": "Acousticbodycreaft",
       "type": "recipe",
       "sortid": 15,
@@ -193,6 +160,21 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acousticbodycreaft"
+    },
+    {
+      "name": "Beanie",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beanie",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
     },
     {
       "name": "Beaniecraf",
@@ -204,25 +186,61 @@
       "registry_name": "beaniecraf"
     },
     {
-      "name": "Acousticstalk",
+      "name": "Musicnote",
       "type": "item",
-      "sortid": 12,
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musicnote"
+    },
+    {
+      "name": "HeavyMetal",
+      "type": "item",
+      "sortid": 1,
       "compiles": false,
       "locked_code": false,
       "ids": {},
-      "registry_name": "acousticstalk"
+      "registry_name": "heavy_metal"
+    },
+    {
+      "name": "DeathMetal",
+      "type": "item",
+      "sortid": 2,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_metal"
+    },
+    {
+      "name": "Acousticguitar",
+      "type": "gun",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acousticguitar"
+    },
+    {
+      "name": "Acoutsticguitarcra",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acoutsticguitarcra"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.memetallica.beanie_chestplate": "Beanie Body",
       "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
-      "item.memetallica.beanie_leggings": "Beanie Leggings",
-      "item.memetallica.musicnote": "Musicnote"
+      "item.memetallica.musicnote": "Musicnote",
+      "item.memetallica.beanie_chestplate": "Beanie Body",
+      "item.memetallica.beanie_leggings": "Beanie Leggings"
     }
   },
   "workspaceSettings": {
