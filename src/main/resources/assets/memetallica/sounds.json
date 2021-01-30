@@ -25,5 +25,14 @@
         "stream": true
       }
     ]
+  },
+  "thedicksonga": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "memetallica:metallica_-_the_dick_song",
+        "stream": true
+      }
+    ]
   }
 }

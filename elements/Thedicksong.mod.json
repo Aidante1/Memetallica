@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "bbcdisc",
+    "name": "Music Disc (SP)",
+    "description": "Metallica - The Dick Song",
+    "creativeTab": {
+      "value": "CUSTOM:MetalCraft"
+    },
+    "music": {
+      "value": "CUSTOM:thedicksonga"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

@@ -1,11 +1,13 @@
 {
-  "item.memetallica.beanie_boots": "Beanie Boots",
   "item.memetallica.acoustic_body": "Acoustic Body",
+  "item.memetallica.beanie_boots": "Beanie Boots",
   "item.memetallica.marijuana": "Marijuana",
   "item.memetallica.beanie_helmet": "Beanie ",
   "item.memetallica.musicnote": "Musicnote",
   "item.memetallica.master_of_pup.desc": "Metallica - Master of Puppets",
   "item.memetallica.beanie_chestplate": "Beanie Body",
+  "item.memetallica.thedicksong.desc": "Metallica - The Dick Song",
+  "subtitles.thedicksonga": "",
   "item.memetallica.damage_8.desc": "Metallica - Damage Inc (8bit)",
   "item.memetallica.elecg_2full": "Electric Guitar 2",
   "subtitles.masterofpuppies": "",
@@ -25,5 +27,6 @@
   "item.memetallica.damage_8": "Music Disc (SP)",
   "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
   "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
+  "item.memetallica.thedicksong": "Music Disc (SP)",
   "item.memetallica.acousticstalk": "Acoustic Neck"
 }

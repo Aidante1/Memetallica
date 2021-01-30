@@ -53,6 +53,8 @@ public class MemetallicaModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "masterofpuppies")));
 		sounds.put(new ResourceLocation("memetallica", "eightbitdamage"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "eightbitdamage")));
+		sounds.put(new ResourceLocation("memetallica", "thedicksonga"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "thedicksonga")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("memetallica").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
