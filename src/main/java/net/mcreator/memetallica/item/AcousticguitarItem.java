@@ -75,7 +75,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.NONE;
+			return UseAction.CROSSBOW;
 		}
 
 		@Override
@@ -84,8 +84,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		}
 
 		@Override
-		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-			World world = entityLiving.world;
+		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				double x = entity.getPosX();
@@ -95,7 +94,6 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 6, 3);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					entity.stopActiveHand();
 				}
 			}
 		}
@@ -158,7 +156,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, entity, world);
 		entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setIsCritical(true);
+		entityarrow.setIsCritical(false);
 		entityarrow.setDamage(damage);
 		entityarrow.setKnockbackStrength(knockback);
 		world.addEntity(entityarrow);
@@ -180,7 +178,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		entityarrow.setSilent(true);
 		entityarrow.setDamage(6);
 		entityarrow.setKnockbackStrength(3);
-		entityarrow.setIsCritical(true);
+		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();
