@@ -1,10 +1,23 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Nolifetillleather",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nolifetillleather"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "advancements.nolifetillleather.title": "No life till\u0027 leather",
+      "advancements.nolifetillleather.descr": "kill a cow"
+    }
   },
   "workspaceSettings": {
     "modid": "memetallica",
