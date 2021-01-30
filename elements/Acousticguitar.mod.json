@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "new_piskel",
     "customModelName": "Normal",
-    "name": "Acousticguitar",
+    "name": "Acoustic Guitar",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MetalCraft"
     },
     "stackSize": 1,
     "ammoItem": {
@@ -23,7 +23,7 @@
     "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 3.0,
+    "bulletPower": 1.0,
     "bulletDamage": 6.0,
     "bulletKnockback": 3,
     "bulletParticles": true,

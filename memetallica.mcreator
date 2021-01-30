@@ -329,6 +329,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "elecg_2fullcarft"
+    },
+    {
+      "name": "MetalCraft",
+      "type": "tab",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_craft"
     }
   ],
   "variable_elements": [],
@@ -341,13 +350,14 @@
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.electric_guitar_2_body": "Electric Guitar 2 Body",
+      "itemGroup.tabmetal_craft": "MetalCraft",
       "item.memetallica.electric_guitar_full_1": "Electric Guitar 1",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
       "item.memetallica.beanie_chestplate": "Beanie Body",
       "item.memetallica.heavy_metal": "Heavy Metal",
-      "item.memetallica.acousticguitar": "Acousticguitar",
+      "item.memetallica.acousticguitar": "Acoustic Guitar",
       "item.memetallica.death_metal": "Death Metal",
       "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
       "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",

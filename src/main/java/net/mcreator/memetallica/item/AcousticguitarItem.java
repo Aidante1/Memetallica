@@ -20,7 +20,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -33,6 +32,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.memetallica.itemgroup.MetalCraftItemGroup;
 import net.mcreator.memetallica.MemetallicaModElements;
 
 import java.util.Random;
@@ -63,7 +63,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1));
+			super(new Item.Properties().group(MetalCraftItemGroup.tab).maxStackSize(1));
 			setRegistryName("acousticguitar");
 		}
 
@@ -92,7 +92,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 6, 3);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 6, 3);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 					entity.stopActiveHand();
@@ -176,7 +176,7 @@ public class AcousticguitarItem extends MemetallicaModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setDamage(6);
 		entityarrow.setKnockbackStrength(3);
