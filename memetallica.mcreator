@@ -307,13 +307,13 @@
       "item.memetallica.electric_guitar_full_1": "Electric Guitar 1",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.musicnote": "Musicnote",
-      "item.memetallica.electric_guitar_1p_2": "Electric Guitar Stock 1",
+      "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
       "item.memetallica.beanie_chestplate": "Beanie Body",
       "item.memetallica.heavy_metal": "Heavy Metal",
       "item.memetallica.acousticguitar": "Acousticguitar",
       "item.memetallica.death_metal": "Death Metal",
       "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
-      "item.memetallica.acousticstalk": "Acoustic stock"
+      "item.memetallica.acousticstalk": "Acoustic Neck"
     }
   },
   "workspaceSettings": {
