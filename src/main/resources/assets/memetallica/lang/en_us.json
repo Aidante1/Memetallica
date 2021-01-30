@@ -1,6 +1,6 @@
 {
-  "item.memetallica.acoustic_body": "Acoustic Body",
   "item.memetallica.beanie_boots": "Beanie Boots",
+  "item.memetallica.acoustic_body": "Acoustic Body",
   "item.memetallica.marijuana": "Marijuana",
   "item.memetallica.beanie_helmet": "Beanie ",
   "item.memetallica.musicnote": "Musicnote",
@@ -20,8 +20,8 @@
   "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
   "subtitles.damageincc": "",
   "subtitles.eightbitdamage": "",
-  "item.memetallica.g_3neck": "Guitar 3 Neck",
-  "item.memetallica.g_3body": "Guitar 3 Body",
+  "item.memetallica.g_3neck": "Electric Guitar 3 Neck",
+  "item.memetallica.g_3body": "Electric Guitar 3 Body",
   "item.memetallica.heavy_metal": "Heavy Metal",
   "item.memetallica.acousticguitar": "Acoustic Guitar",
   "item.memetallica.damage_inc_disk": "Music Disc",
@@ -29,6 +29,7 @@
   "item.memetallica.damage_8": "Music Disc (SP)",
   "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
   "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
+  "item.memetallica.g_3full": "Electric Guitar 3",
   "item.memetallica.thedicksong": "Music Disc (SP)",
   "item.memetallica.stangerfist": "St. Anger Fist",
   "item.memetallica.acousticstalk": "Acoustic Neck"
