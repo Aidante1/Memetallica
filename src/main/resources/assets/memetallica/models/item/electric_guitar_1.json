@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "memetallica:items/acoustic"
+    "layer0": "memetallica:items/electric_guitar_1_body"
   }
 }
