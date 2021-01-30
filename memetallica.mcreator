@@ -248,6 +248,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "electric_guitar_1p_2"
+    },
+    {
+      "name": "ElectricGuitarFull1",
+      "type": "gun",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electric_guitar_full_1"
+    },
+    {
+      "name": "ElecStockCraf",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elec_stock_craf"
     }
   ],
   "variable_elements": [],
@@ -258,6 +276,7 @@
       "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
+      "item.memetallica.electric_guitar_full_1": "Electric Guitar 1",
       "item.memetallica.beanie_leggings": "Beanie Leggings",
       "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.electric_guitar_1p_2": "Electric Guitar Stock 1",
