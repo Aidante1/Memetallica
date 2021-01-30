@@ -1,0 +1,29 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wool"
+    },
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "memetallica:beanie_helmet",
+    "count": 1
+  }
+}

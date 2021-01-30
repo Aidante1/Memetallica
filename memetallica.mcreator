@@ -160,6 +160,30 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "acousticbodycreaft"
+    },
+    {
+      "name": "Beanie",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beanie",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Beaniecraf",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beaniecraf"
     }
   ],
   "variable_elements": [],
@@ -168,20 +192,24 @@
     "en_us": {
       "advancements.ridethelightning.title": "Ride the lightning",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "advancements.nolifetillleather.title": "No life till\u0027 leather",
       "item.memetallica.marijuana": "Marijuana",
+      "item.memetallica.beanie_helmet": "Beanie ",
       "advancements.blackened.descr": "mine some coal",
       "advancements.hardwired.descr": "mine some redstone",
       "advancements.sweetleaf.descr": "smoke some weed",
       "advancements.theresnothingformehere.title": "Theres nothing for me here",
       "advancements.blackened.title": "Blackened",
       "advancements.vulgardisplayofpower.descr": "craft a diamond sword",
+      "item.memetallica.beanie_leggings": "Beanie Leggings",
       "advancements.theresnothingformehere.descr": "go to a desert",
       "advancements.ridethelightning.descr": "get struck by lightning",
       "advancements.sweetleaf.title": "Sweet leaf",
       "advancements.hardwired.title": "Hardwired",
       "advancements.vulgardisplayofpower.title": "Vulgar display of power",
       "advancements.nolifetillleather.descr": "kill a cow",
+      "item.memetallica.beanie_chestplate": "Beanie Body",
       "advancements.damageink.descr": "kill a squid",
       "item.memetallica.acousticstalk": "Acoustic stock",
       "advancements.damageink.title": "Damage, ink"
