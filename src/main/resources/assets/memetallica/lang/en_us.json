@@ -1,4 +1,5 @@
 {
+  "item.memetallica.elecg_2full": "Electric Guitar 2",
   "item.memetallica.beanie_boots": "Beanie Boots",
   "item.memetallica.acoustic_body": "Acoustic Body",
   "item.memetallica.marijuana": "Marijuana",
@@ -7,11 +8,12 @@
   "item.memetallica.electric_guitar_full_1": "Electric Guitar 1",
   "item.memetallica.beanie_leggings": "Beanie Leggings",
   "item.memetallica.musicnote": "Musicnote",
-  "item.memetallica.electric_guitar_1p_2": "Electric Guitar Stock 1",
+  "item.memetallica.electric_guitar_1p_2": "Electric Guitar Neck 1",
   "item.memetallica.beanie_chestplate": "Beanie Body",
   "item.memetallica.heavy_metal": "Heavy Metal",
   "item.memetallica.acousticguitar": "Acousticguitar",
   "item.memetallica.death_metal": "Death Metal",
   "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
-  "item.memetallica.acousticstalk": "Acoustic stock"
+  "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
+  "item.memetallica.acousticstalk": "Acoustic Neck"
 }
