@@ -311,12 +311,31 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "elect_g_2p_2_craft"
+    },
+    {
+      "name": "Elecg2full",
+      "type": "gun",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elecg_2full"
+    },
+    {
+      "name": "Elecg2fullcarft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elecg_2fullcarft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.memetallica.elecg_2full": "Electric Guitar 2",
       "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.marijuana": "Marijuana",
