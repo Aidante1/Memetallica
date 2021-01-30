@@ -1,10 +1,16 @@
 {
+  "advancements.ridethelightning.title": "Ride the lightning",
   "advancements.nolifetillleather.title": "No life till\u0027 leather",
   "advancements.blackened.descr": "mine some coal",
   "advancements.hardwired.descr": "mine some redstone",
-  "advancements.damageink.descr": "kill a squid",
+  "advancements.theresnothingformehere.title": "Theres nothing for me here",
   "advancements.blackened.title": "Blackened",
+  "advancements.vulgardisplayofpower.descr": "craft a diamond sword",
+  "advancements.theresnothingformehere.descr": "go to a desert",
+  "advancements.ridethelightning.descr": "get struck by lightning",
   "advancements.hardwired.title": "Hardwired",
+  "advancements.vulgardisplayofpower.title": "Vulgar display of power",
   "advancements.nolifetillleather.descr": "kill a cow",
+  "advancements.damageink.descr": "kill a squid",
   "advancements.damageink.title": "Damage, ink"
 }

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fire"
+    },
+    "title": {
+      "translate": "advancements.ridethelightning.title"
+    },
+    "description": {
+      "translate": "advancements.ridethelightning.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ridethelightning": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 9999
+  },
+  "parent": "memetallica:nolifetillleather"
+}

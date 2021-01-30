@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "translate": "advancements.theresnothingformehere.title"
+    },
+    "description": {
+      "translate": "advancements.theresnothingformehere.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "theresnothingformehere": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "desert"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "memetallica:nolifetillleather"
+}

@@ -36,19 +36,52 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "damageink"
+    },
+    {
+      "name": "Theresnothingformehere",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "theresnothingformehere"
+    },
+    {
+      "name": "Vulgardisplayofpower",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vulgardisplayofpower"
+    },
+    {
+      "name": "Ridethelightning",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ridethelightning"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.ridethelightning.title": "Ride the lightning",
       "advancements.nolifetillleather.title": "No life till\u0027 leather",
       "advancements.blackened.descr": "mine some coal",
       "advancements.hardwired.descr": "mine some redstone",
-      "advancements.damageink.descr": "kill a squid",
+      "advancements.theresnothingformehere.title": "Theres nothing for me here",
       "advancements.blackened.title": "Blackened",
+      "advancements.vulgardisplayofpower.descr": "craft a diamond sword",
+      "advancements.theresnothingformehere.descr": "go to a desert",
+      "advancements.ridethelightning.descr": "get struck by lightning",
       "advancements.hardwired.title": "Hardwired",
+      "advancements.vulgardisplayofpower.title": "Vulgar display of power",
       "advancements.nolifetillleather.descr": "kill a cow",
+      "advancements.damageink.descr": "kill a squid",
       "advancements.damageink.title": "Damage, ink"
     }
   },
