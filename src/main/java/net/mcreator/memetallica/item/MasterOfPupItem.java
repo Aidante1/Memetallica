@@ -2,13 +2,10 @@
 package net.mcreator.memetallica.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.MusicDiscItem;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 
 import net.mcreator.memetallica.itemgroup.MetalCraftItemGroup;
@@ -31,12 +28,6 @@ public class MasterOfPupItem extends MemetallicaModElements.ModElement {
 			super(0, MemetallicaModElements.sounds.get(new ResourceLocation("memetallica:masterofpuppies")),
 					new Item.Properties().group(MetalCraftItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("master_of_pup");
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public boolean hasEffect(ItemStack itemstack) {
-			return true;
 		}
 	}
 }
