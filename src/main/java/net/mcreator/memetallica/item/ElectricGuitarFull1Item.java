@@ -84,8 +84,7 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 		}
 
 		@Override
-		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-			World world = entityLiving.world;
+		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				double x = entity.getPosX();
@@ -95,7 +94,6 @@ public class ElectricGuitarFull1Item extends MemetallicaModElements.ModElement {
 					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 8, 6);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					entity.stopActiveHand();
 				}
 			}
 		}

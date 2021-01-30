@@ -1,0 +1,36 @@
+{
+  "group": "memetallica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "memetallica:death_metal"
+    },
+    "1": {
+      "item": "memetallica:death_metal"
+    },
+    "2": {
+      "item": "memetallica:death_metal"
+    },
+    "3": {
+      "item": "memetallica:death_metal"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "5": {
+      "item": "memetallica:death_metal"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "memetallica:theaxebody",
+    "count": 1
+  }
+}
