@@ -410,6 +410,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eightbitdamage"
+    },
+    {
+      "name": "MasterOfPuppetAlbum",
+      "type": "painting",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "master_of_puppet_album"
+    },
+    {
+      "name": "RideTheLightningPaint",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ride_the_lightning_paint"
     }
   ],
   "variable_elements": [],
