@@ -1,26 +1,11 @@
 package net.mcreator.memetallica.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.common.MinecraftForge;
-
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.advancements.AdvancementProgress;
-import net.minecraft.advancements.Advancement;
-
-import net.mcreator.memetallica.MemetallicaModElements;
-
-import java.util.Map;
-import java.util.Iterator;
-import java.util.HashMap;
-
 @MemetallicaModElements.ModElement.Tag
 public class TodayIsAGoodDayToDieProcedureProcedure extends MemetallicaModElements.ModElement {
+
 	public TodayIsAGoodDayToDieProcedureProcedure(MemetallicaModElements instance) {
 		super(instance, 67);
+
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -30,10 +15,12 @@ public class TodayIsAGoodDayToDieProcedureProcedure extends MemetallicaModElemen
 				System.err.println("Failed to load dependency entity for procedure TodayIsAGoodDayToDieProcedure!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if (entity instanceof ServerPlayerEntity) {
 			Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-					.getAdvancement(new ResourceLocation("memetallica:today_is_a_good_day_to_die"));
+					.getAdvancement(new ResourceLocation("memetallica:@registryname"));
 			AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 			if (!_ap.isDone()) {
 				Iterator _iterator = _ap.getRemaningCriteria().iterator();
@@ -43,6 +30,7 @@ public class TodayIsAGoodDayToDieProcedureProcedure extends MemetallicaModElemen
 				}
 			}
 		}
+
 	}
 
 	@SubscribeEvent
@@ -58,4 +46,5 @@ public class TodayIsAGoodDayToDieProcedureProcedure extends MemetallicaModElemen
 		dependencies.put("event", event);
 		this.executeProcedure(dependencies);
 	}
+
 }

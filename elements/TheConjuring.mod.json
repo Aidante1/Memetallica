@@ -3,7 +3,7 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "the_conjuring_8bit_disc",
-    "name": "Music Disc",
+    "name": "Music Disc (SP)",
     "description": "Megadeth - The Conjuring (8-bit)",
     "creativeTab": {
       "value": "CUSTOM:MetalCraft"
@@ -15,6 +15,6 @@
       "If you need the strength",
       "just conjure me..."
     ],
-    "hasGlow": false
+    "hasGlow": true
   }
 }

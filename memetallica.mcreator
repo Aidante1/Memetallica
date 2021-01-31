@@ -657,15 +657,6 @@
       "registry_name": "the_conjuring"
     },
     {
-      "name": "TodayIsAGoodDayToDie",
-      "type": "achievement",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "today_is_a_good_day_to_die"
-    },
-    {
       "name": "TodayIsAGoodDayToDieProcedure",
       "type": "procedure",
       "sortid": 67,
@@ -678,6 +669,44 @@
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TodayIsAGoodDayToDie",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "today_is_a_good_day_to_die"
+    },
+    {
+      "name": "HarvesterofsorrowLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "harvesterofsorrow_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "harvester_of_sorrow",
     "customModelName": "Normal",
-    "name": "Harvesterofsorrow",
+    "name": "Harvester Of Sorrow",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:MetalCraft"
@@ -15,12 +15,15 @@
     "efficiency": 10.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 10.0,
     "usageCount": 432,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "HarvesterofsorrowLivingEntityIsHitWithTool"
+    }
   }
 }
