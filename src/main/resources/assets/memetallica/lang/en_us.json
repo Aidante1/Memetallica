@@ -1,6 +1,6 @@
 {
-  "item.memetallica.beanie_boots": "Beanie Boots",
   "item.memetallica.acoustic_body": "Acoustic Body",
+  "item.memetallica.beanie_boots": "Beanie Boots",
   "item.memetallica.marijuana": "Marijuana",
   "item.memetallica.beanie_helmet": "Beanie ",
   "item.memetallica.musicnote": "Musicnote",
@@ -40,5 +40,6 @@
   "item.memetallica.g_3full": "Electric Guitar 3",
   "item.memetallica.thedicksong": "Music Disc (SP)",
   "item.memetallica.stangerfist": "St. Anger Fist",
+  "subtitles.acousticguitarplay": "Acoustic guitar strums",
   "item.memetallica.acousticstalk": "Acoustic Neck"
 }

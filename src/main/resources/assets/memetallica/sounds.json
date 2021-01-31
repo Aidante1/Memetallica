@@ -64,5 +64,15 @@
         "stream": false
       }
     ]
+  },
+  "acousticguitarplay": {
+    "category": "master",
+    "subtitle": "subtitles.acousticguitarplay",
+    "sounds": [
+      {
+        "name": "memetallica:acoustic_play",
+        "stream": false
+      }
+    ]
   }
 }
