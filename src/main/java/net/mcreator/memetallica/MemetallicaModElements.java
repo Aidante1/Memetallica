@@ -55,12 +55,6 @@ public class MemetallicaModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "eightbitdamage")));
 		sounds.put(new ResourceLocation("memetallica", "thedicksonga"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "thedicksonga")));
-		sounds.put(new ResourceLocation("memetallica", "guitar1play"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "guitar1play")));
-		sounds.put(new ResourceLocation("memetallica", "guitar2play"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "guitar2play")));
-		sounds.put(new ResourceLocation("memetallica", "guitar3play"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("memetallica", "guitar3play")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("memetallica").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
