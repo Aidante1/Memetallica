@@ -651,6 +651,14 @@
   "variable_elements": [],
   "sound_elements": [
     {
+      "name": "damageincc",
+      "files": [
+        "damage_inc"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
       "name": "masterofpuppies",
       "files": [
         "song"
@@ -670,14 +678,6 @@
       "name": "thedicksonga",
       "files": [
         "metallica_-_the_dick_song"
-      ],
-      "category": "record",
-      "subtitle": ""
-    },
-    {
-      "name": "damageincc",
-      "files": [
-        "damage_inc"
       ],
       "category": "record",
       "subtitle": ""
