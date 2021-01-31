@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic",
+    "texture": "harvester_of_sorrow",
     "customModelName": "Normal",
     "name": "Harvesterofsorrow",
     "specialInfo": [],
