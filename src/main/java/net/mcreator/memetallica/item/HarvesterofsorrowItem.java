@@ -11,7 +11,7 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 import net.minecraft.entity.LivingEntity;
 
-import net.mcreator.memetallica.procedures.StangerfistLivingEntityIsHitWithItemProcedure;
+import net.mcreator.memetallica.procedures.HarvesterofsorrowLivingEntityIsHitWithToolProcedure;
 import net.mcreator.memetallica.itemgroup.MetalCraftItemGroup;
 import net.mcreator.memetallica.MemetallicaModElements;
 
@@ -54,8 +54,8 @@ public class HarvesterofsorrowItem extends MemetallicaModElements.ModElement {
 			}
 		}, -3f, new Item.Properties().group(MetalCraftItemGroup.tab)) {
 			@Override
-			public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-				boolean retval = super.onEntitySwing(itemstack, entity);
+			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
 				double x = entity.getPosX();
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
@@ -66,7 +66,7 @@ public class HarvesterofsorrowItem extends MemetallicaModElements.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					StangerfistLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
+					HarvesterofsorrowLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}

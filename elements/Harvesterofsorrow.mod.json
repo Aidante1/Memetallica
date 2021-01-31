@@ -22,8 +22,8 @@
     "repairItems": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntitySwing": {
-      "name": "StangerfistLivingEntityIsHitWithItem"
+    "onEntityHitWith": {
+      "name": "HarvesterofsorrowLivingEntityIsHitWithTool"
     }
   }
 }
