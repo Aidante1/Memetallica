@@ -686,13 +686,13 @@
       }
     },
     {
-      "name": "Oreo",
-      "type": "food",
-      "sortid": 68,
+      "name": "Oreocra",
+      "type": "recipe",
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "oreo"
+      "registry_name": "oreocra"
     },
     {
       "name": "Oreoeat",
@@ -704,13 +704,39 @@
       "registry_name": "oreoeat"
     },
     {
-      "name": "Oreocra",
-      "type": "recipe",
-      "sortid": 70,
+      "name": "Oreo",
+      "type": "food",
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "oreocra"
+      "registry_name": "oreo"
+    },
+    {
+      "name": "TodayIsAGoodDayToDieProcedure",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "today_is_a_good_day_to_die_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TodayIsAGoodDayToDie",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "today_is_a_good_day_to_die"
     }
   ],
   "variable_elements": [],
@@ -818,11 +844,9 @@
       "item.memetallica.thedicksong": "Music Disc (SP)",
       "subtitles.acousticguitarplay": "Acoustic guitar strums",
       "item.memetallica.acousticstalk": "Acoustic Neck",
-      "advancements.oreoeat.descr": "OH REE OH",
       "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.theaxe": "Theaxe",
-      "item.memetallica.oreo": "Oreo",
       "item.memetallica.damage_8.desc": "Metallica - Damage Inc (8bit)",
       "item.memetallica.elecg_2full": "Electric Guitar 2",
       "subtitles.masterofpuppies": "",
@@ -837,7 +861,6 @@
       "subtitles.guitar1play": "Guitar plays",
       "item.memetallica.heavy_metal": "Heavy Metal",
       "item.memetallica.damage_inc_disk": "Music Disc",
-      "advancements.oreoeat.title": "Frayed Ends Of Sanity",
       "item.memetallica.stangerfist": "St. Anger Fist"
     }
   },
