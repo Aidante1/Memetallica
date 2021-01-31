@@ -17,10 +17,10 @@
     "shootConstantly": false,
     "usageCount": 200,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "CUSTOM:guitar1play"
     },
     "hasGlow": false,
-    "animation": "crossbow",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
