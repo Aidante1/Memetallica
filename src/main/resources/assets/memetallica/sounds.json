@@ -34,5 +34,35 @@
         "stream": true
       }
     ]
+  },
+  "guitar1play": {
+    "category": "master",
+    "subtitle": "subtitles.guitar1play",
+    "sounds": [
+      {
+        "name": "memetallica:guitar_1_play",
+        "stream": false
+      }
+    ]
+  },
+  "guitar2play": {
+    "category": "master",
+    "subtitle": "subtitles.guitar2play",
+    "sounds": [
+      {
+        "name": "memetallica:guitar_2_play",
+        "stream": false
+      }
+    ]
+  },
+  "guitar3play": {
+    "category": "master",
+    "subtitle": "subtitles.guitar3play",
+    "sounds": [
+      {
+        "name": "memetallica:guitar_3_play",
+        "stream": false
+      }
+    ]
   }
 }
