@@ -3,7 +3,7 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic",
+    "texture": "electric_guitar_3",
     "customModelName": "Normal",
     "name": "Electric Guitar 3",
     "specialInfo": [],

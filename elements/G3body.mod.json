@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic",
+    "texture": "electric_guitar_3_body",
     "customModelName": "Normal",
     "name": "Electric Guitar 3 Body",
     "rarity": "COMMON",

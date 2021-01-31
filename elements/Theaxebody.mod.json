@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "acoustic",
+    "texture": "the_axe_body",
     "customModelName": "Normal",
     "name": "The axe body",
     "rarity": "COMMON",
