@@ -6,7 +6,7 @@
     "name": "Music Disc",
     "description": "Megadeth - The Conjuring (8-bit)",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MetalCraft"
     },
     "music": {
       "value": "CUSTOM:theconjuring8bit"

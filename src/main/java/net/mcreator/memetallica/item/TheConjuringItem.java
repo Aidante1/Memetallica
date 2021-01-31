@@ -10,10 +10,10 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 
+import net.mcreator.memetallica.itemgroup.MetalCraftItemGroup;
 import net.mcreator.memetallica.MemetallicaModElements;
 
 import java.util.List;
@@ -33,7 +33,7 @@ public class TheConjuringItem extends MemetallicaModElements.ModElement {
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, MemetallicaModElements.sounds.get(new ResourceLocation("memetallica:theconjuring8bit")),
-					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
+					new Item.Properties().group(MetalCraftItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("the_conjuring");
 		}
 
