@@ -646,6 +646,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "harvestercraft"
+    },
+    {
+      "name": "TheConjuring",
+      "type": "musicdisc",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_conjuring"
     }
   ],
   "variable_elements": [],
@@ -713,12 +722,20 @@
       ],
       "category": "master",
       "subtitle": "Acoustic guitar strums"
+    },
+    {
+      "name": "theconjuring8bit",
+      "files": [
+        "the_conjuring_8bit"
+      ],
+      "category": "master",
+      "subtitle": "Megadeth - The Conjuring (music playing)"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.musicnote": "Musicnote",
@@ -727,12 +744,14 @@
       "item.memetallica.master_of_pup.desc": "Metallica - Master of Puppets",
       "item.memetallica.beanie_chestplate": "Beanie Body",
       "item.memetallica.thedicksong.desc": "Metallica - The Dick Song",
+      "item.memetallica.the_conjuring.desc": "Megadeth - The Conjuring (8-bit)",
       "subtitles.thedicksonga": "",
       "item.memetallica.damage_8.desc": "Metallica - Damage Inc (8bit)",
       "subtitles.guitar1shoot": "Guitar Plays",
       "subtitles.guitar3play": "Guitar plays",
       "item.memetallica.elecg_2full": "Electric Guitar 2",
       "subtitles.masterofpuppies": "",
+      "item.memetallica.the_conjuring": "Music Disc",
       "item.memetallica.damage_inc_disk.desc": "Metallica - Damage, Inc",
       "item.memetallica.master_of_pup": "Music Disc",
       "item.memetallica.electric_guitar_2_body": "Electric Guitar 2 Body",
@@ -756,6 +775,7 @@
       "item.memetallica.electric_guitar_1": "Electric Guitar Body 1",
       "item.memetallica.electricguitar_2neck": "Electric Guitar 2 Neck",
       "item.memetallica.g_3full": "Electric Guitar 3",
+      "subtitles.theconjuring8bit": "Megadeth - The Conjuring (music playing)",
       "item.memetallica.thedicksong": "Music Disc (SP)",
       "item.memetallica.stangerfist": "St. Anger Fist",
       "subtitles.acousticguitarplay": "Acoustic guitar strums",

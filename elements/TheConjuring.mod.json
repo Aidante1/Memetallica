@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "the_conjuring_8bit_disc",
+    "name": "Music Disc",
+    "description": "Megadeth - The Conjuring (8-bit)",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:theconjuring8bit"
+    },
+    "specialInfo": [
+      "If you need the strength",
+      "just conjure me..."
+    ],
+    "hasGlow": false
+  }
+}

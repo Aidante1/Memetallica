@@ -74,5 +74,15 @@
         "stream": false
       }
     ]
+  },
+  "theconjuring8bit": {
+    "category": "master",
+    "subtitle": "subtitles.theconjuring8bit",
+    "sounds": [
+      {
+        "name": "memetallica:the_conjuring_8bit",
+        "stream": false
+      }
+    ]
   }
 }
