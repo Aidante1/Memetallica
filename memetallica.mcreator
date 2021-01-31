@@ -552,7 +552,7 @@
       "name": "G3full",
       "type": "gun",
       "sortid": 55,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "g_3full"
@@ -709,8 +709,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.acoustic_body": "Acoustic Body",
+      "item.memetallica.beanie_boots": "Beanie Boots",
       "item.memetallica.marijuana": "Marijuana",
       "item.memetallica.beanie_helmet": "Beanie ",
       "item.memetallica.musicnote": "Musicnote",
