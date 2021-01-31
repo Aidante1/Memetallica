@@ -660,7 +660,7 @@
       "name": "TodayIsAGoodDayToDieProcedure",
       "type": "procedure",
       "sortid": 67,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "today_is_a_good_day_to_die_procedure",
@@ -686,7 +686,7 @@
       "name": "HarvesterofsorrowLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 67,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "harvesterofsorrow_living_entity_is_hit_with_tool",
@@ -710,6 +710,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "Oreocra",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oreocra"
+    },
+    {
+      "name": "Oreoeat",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oreoeat"
+    },
+    {
+      "name": "Oreo",
+      "type": "food",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oreo"
     }
   ],
   "variable_elements": [],
@@ -820,8 +847,6 @@
       "item.memetallica.acoustic_body": "Acoustic Body",
       "item.memetallica.musicnote": "Musicnote",
       "item.memetallica.theaxe": "Theaxe",
-      "advancements.today_is_a_good_day_to_die.descr": "Die. That\u0027s it.",
-      "advancements.today_is_a_good_day_to_die.title": "Today Is A Good Day To Die",
       "item.memetallica.damage_8.desc": "Metallica - Damage Inc (8bit)",
       "item.memetallica.elecg_2full": "Electric Guitar 2",
       "subtitles.masterofpuppies": "",
