@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:redstone"
+      "item": "memetallica:hardwire"
     },
     "title": {
       "translate": "advancements.hardwired.title"

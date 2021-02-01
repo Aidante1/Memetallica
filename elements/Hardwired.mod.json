@@ -5,7 +5,7 @@
     "achievementName": "Hardwired",
     "achievementDescription": "mine some redstone",
     "achievementIcon": {
-      "value": "Items.REDSTONE"
+      "value": "CUSTOM:Hardwire"
     },
     "background": "Default",
     "disableDisplay": false,
