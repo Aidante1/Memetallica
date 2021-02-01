@@ -2,8 +2,6 @@
 package net.mcreator.memetallica.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -37,12 +35,6 @@ public class TheConjuringItem extends MemetallicaModElements.ModElement {
 			super(0, MemetallicaModElements.sounds.get(new ResourceLocation("memetallica:theconjuring8bit")),
 					new Item.Properties().group(MetalCraftItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("the_conjuring");
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public boolean hasEffect(ItemStack itemstack) {
-			return true;
 		}
 
 		@Override
