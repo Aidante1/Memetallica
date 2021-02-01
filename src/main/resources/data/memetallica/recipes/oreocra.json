@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "345",
+    " 4 ",
     "678"
   ],
   "key": {
@@ -11,32 +11,26 @@
       "item": "minecraft:cocoa_beans"
     },
     "1": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:cookie"
     },
     "2": {
       "item": "minecraft:cocoa_beans"
     },
-    "3": {
-      "item": "minecraft:milk_bucket"
-    },
     "4": {
-      "item": "minecraft:milk_bucket"
-    },
-    "5": {
       "item": "minecraft:milk_bucket"
     },
     "6": {
       "item": "minecraft:cocoa_beans"
     },
     "7": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:cookie"
     },
     "8": {
       "item": "minecraft:cocoa_beans"
     }
   },
   "result": {
-    "item": "memetallica:unknown_element",
+    "item": "memetallica:oreo",
     "count": 1
   }
 }
